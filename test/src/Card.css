@@ -1,0 +1,75 @@
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .user-info {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+  
+  .user-info h4 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .user-info p {
+    margin: 0;
+    color: #888;
+  }
+  
+  .more-icon {
+    cursor: pointer;
+  }
+  
+  .card-content {
+    margin-top: 10px;
+  }
+  
+  .card-content p {
+    margin: 10px 0;
+  }
+  
+  .read-more {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .post-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .interaction {
+    display: flex;
+    align-items: center;
+    color: #888;
+  }
+  
+  .interaction span {
+    margin-left: 5px;
+  }
+  

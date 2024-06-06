@@ -1,0 +1,79 @@
+.artist-list-container {
+    width: 300px;
+    font-family: Arial, sans-serif;
+    padding: 19px;
+  }
+  
+  .seller-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #b2d9cc;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .tabs span {
+    cursor: pointer;
+  }
+  
+  .tabs .active {
+    font-weight: bold;
+  }
+  
+  .artist-card {
+    position: relative;
+    height: 100px;
+    margin-bottom: 10px;
+    background-size: cover;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+  }
+  
+  .artist-profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .artist-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .artist-info h3 {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .artist-info p {
+    margin: 0;
+    font-size: 12px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #555;
+  }
+  
